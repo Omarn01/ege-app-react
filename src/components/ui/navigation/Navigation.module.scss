@@ -1,0 +1,26 @@
+.navigation {
+  display: flex;
+  padding: 5px 10px;
+  background-color: #888;
+  color: #222;
+  border-top: #222;
+}
+.list {
+  height: 100%;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  font-weight: 700;
+  svg {
+    font-size: 24px;
+  }
+}
