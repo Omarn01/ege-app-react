@@ -1,0 +1,54 @@
+.learnedCountry {
+  height: 100%;
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  svg {
+    font-size: 30px;
+  }
+  .like {
+    color: rgb(9, 204, 9);
+  }
+  .dislike {
+    color: red;
+  }
+}
+
+.country {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.capital {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.button {
+  background-color: #555;
+  padding: 5px 10px;
+  border-radius: 5px;
+}

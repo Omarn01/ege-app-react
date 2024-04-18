@@ -3,10 +3,11 @@ import Home from './components/pages/homepage/Home'
 import Menu from './components/pages/menuPage/Menu'
 import Navigation from './components/ui/navigation/Navigation'
 
+import LearnCountry from './components/pages/country/LearnCountry'
+import LearnedCountry from './components/pages/country/LearnendCountry'
+import TestCountry from './components/pages/country/TestCountry'
+
 import style from './App.module.scss'
-import Learn from './components/pages/country/Learn'
-import Learning from './components/pages/country/Learning'
-import Test from './components/pages/country/Test'
 
 function App() {
   return (
@@ -14,9 +15,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/menu' element={<Menu />} />
-        <Route path='/learn' element={<Learn />} />
-        <Route path='/learnedCountry' element={<Learning />} />
-        <Route path='/testCountry' element={<Test />} />
+        <Route path='/learnCountry' element={<LearnCountry />} />
+        <Route path='/learnedCountry' element={<LearnedCountry />} />
+        <Route path='/testCountry' element={<TestCountry />} />
       </Routes>
       <Navigation />
     </div>
