@@ -4,6 +4,9 @@ import Menu from './components/pages/menuPage/Menu'
 import Navigation from './components/ui/navigation/Navigation'
 
 import style from './App.module.scss'
+import Learn from './components/pages/country/Learn'
+import Learning from './components/pages/country/Learning'
+import Test from './components/pages/country/Test'
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/menu' element={<Menu />} />
+        <Route path='/learn' element={<Learn />} />
+        <Route path='/learnedCountry' element={<Learning />} />
+        <Route path='/testCountry' element={<Test />} />
       </Routes>
       <Navigation />
     </div>

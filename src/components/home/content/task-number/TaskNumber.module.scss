@@ -1,0 +1,19 @@
+.taskNumber {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  background-color: #6f6f6f;
+  padding: 5px;
+  svg {
+    font-size: 14px;
+  }
+}
+.clue {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
